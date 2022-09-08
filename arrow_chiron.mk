@@ -23,6 +23,7 @@ $(call inherit-product, device/xiaomi/chiron/device.mk)
 
 # Inherit some common Arrow stuff.
 $(call inherit-product, vendor/arrow/config/common.mk)
+TARGET_BOOT_ANIMATION_RES := 1080
 
 PRODUCT_NAME := arrow_chiron
 PRODUCT_DEVICE := chiron
