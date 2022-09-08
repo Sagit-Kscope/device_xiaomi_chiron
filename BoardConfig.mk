@@ -37,5 +37,8 @@ TARGET_SCREEN_DENSITY := 480
 # SELinux
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
+# Vendor Security patch level
+VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
+
 # Inherit from proprietary files
 include vendor/xiaomi/chiron/BoardConfigVendor.mk
